@@ -1,2 +1,2 @@
-# redmechanics.github.io
-Red Mechanics public website
+# github.io
+Red Mechanic Public website

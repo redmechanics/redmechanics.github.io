@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Mechanic AB</title>
+    <link>https://redmechanic.com/</link>
+    <description>Recent content on Red Mechanic AB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Red Mechanic AB</copyright>
+    <lastBuildDate>Fri, 03 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://redmechanic.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clients</title>
+      <link>https://redmechanic.com/clients/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/clients/</guid>
+      <description>Some things we&amp;rsquo;ve done: # TELIA | teliacompany.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://redmechanic.com/contact/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/contact/</guid>
+      <description>contact@redmechanic.com # That&amp;rsquo;s all you need to get in touch with us.</description>
+    </item>
+    
+    <item>
+      <title>Copyright Policy</title>
+      <link>https://redmechanic.com/copyright/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/copyright/</guid>
+      <description>We at Red Mechanic strongly believes in sharing and in open source.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://redmechanic.com/oldindex/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/oldindex/</guid>
+      <description>Red Mechanic offers expertise in product development, innovation, prototyping &amp;amp; technical consulting.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://redmechanic.com/privacy/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/privacy/</guid>
+      <description>We at Red Mechanic build our apps and systems with a strong focus on privacy.</description>
+    </item>
+    
+    <item>
+      <title>What we do</title>
+      <link>https://redmechanic.com/what-we-do/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://redmechanic.com/what-we-do/</guid>
+      <description>Red Mechanic offers quality consulting expertise in inventing, creating and managing simple systems.</description>
+    </item>
+    
+  </channel>
+</rss>

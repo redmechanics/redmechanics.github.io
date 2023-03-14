@@ -32,7 +32,7 @@ Undraw.co illustrations license |
 
 ---
 
-If you have any questions or suggestions about our Copyright Policy, do not hesitate to contact us: contact@redmechanic.com
+If you have any questions or suggestions about our Copyright Policy, do not hesitate to [Contact us](/contact)
 
 ---
 

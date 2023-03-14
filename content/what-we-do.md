@@ -23,7 +23,7 @@ We change things. Make them better. Simpler. Things that just work. As simple as
 
 We have developed high-end software solutions on iOS, Android, OSX and Linux. We have made electronics come to life in IoT (Internet Of Things) using Bluetooth LE/Smart. We have helped companies with Apple MFi implementation. We’ve made KaiOS apps. We have created indoor navigation systems. We've done many iOS apps. We can do many things. 
 
-Learn more about what we’ve done for some [clients](/clients)›
+#### Learn more about what we’ve done for some of our [clients](/clients)›
 
 ---
 
@@ -39,6 +39,6 @@ Learn more about what we’ve done for some [clients](/clients)›
 We do primarily build performant and fault tolerant distributed backend systems with Elixir (Erlang)» using the Phoenix framework».
 In 2006 we started building backends using Ruby on Rails. In 2016 we started our move to Elixir, like our SaaS (Software as a Service) Parkaid» platform
 
-If you want to know more, please get in touch with us: [Contact](/contact)
+#### If you want to know more, please get in touch with us: [Contact](/contact)
 
 ---

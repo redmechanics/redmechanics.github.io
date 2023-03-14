@@ -43,3 +43,23 @@
   name = "Copyright"
   pageRef = "copyright"
   weight = 20
+
+[[footer]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[footer]]
+  name = "What we do"
+  pageRef = "what-we-do"
+  weight = 20
+
+[[footer]]
+  name = "Clients"
+  pageRef = "clients"
+  weight = 30
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40

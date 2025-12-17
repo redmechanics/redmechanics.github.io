@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What we do - Red Mechanic AB</title>
+    <meta name="description" content="Red Mechanic offers quality consulting expertise in inventing, creating and managing simple systems.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        :root {
+            --pico-primary: #dc2626;
+            --pico-primary-hover: #b91c1c;
+            --pico-primary-focus: rgba(220, 38, 38, 0.125);
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            padding: 0;
+            background-image: url('assets/layered-waves-haikei.svg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 1rem 0;
+        }
+
+        header nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        header nav ul {
+            justify-content: space-between;
+        }
+
+        header nav ul li:first-child {
+            flex-grow: 1;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--pico-primary);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 0.5rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .hero {
+            border-radius: 1rem;
+            margin: 2rem 0;
+        }
+
+        .hero h1 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .hero h3 {
+            color: white;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+            vertical-align: middle;
+        }
+
+        .service-section {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            margin: 2rem 0;
+        }
+
+        .service-icon {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(220,38,38,0.1);
+            border-radius: 0.5rem;
+            color: var(--pico-primary);
+        }
+
+        .service-content {
+            flex: 1;
+        }
+
+        .callout {
+            background-color: var(--pico-card-background-color);
+            border-left: 4px solid var(--pico-primary);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0.25rem;
+        }
+
+        .section-divider {
+            border-top: 1px solid var(--pico-muted-border-color);
+            margin: 3rem 0;
+        }
+
+        blockquote {
+            border-left: 4px solid var(--pico-primary);
+            font-style: italic;
+            margin: 2rem 0;
+        }
+
+        footer {
+            background-color: transparent;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer nav ul {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        footer nav ul li:first-child {
+            flex-grow: 0;
+        }
+
+        footer nav ul li {
+            flex-grow: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" class="logo"><img src="assets/logo.png" alt="Red Mechanic AB"></a></li>
+                <li><a href="what-we-do.html">What we do</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>What we do</h1>
+            <h3>Red Mechanic offers quality consulting expertise in inventing, creating and managing simple systems.</h3>
+        </section>
+
+        <div class="callout">
+            <p><strong>TLDR;</strong> We develop awesome mobile apps & web backends + do expertise research, consulting and prototyping. Quality before price. Always.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <section>
+            <h2>OUR MISSION</h2>
+            <p>We change things. Make them better. Simpler. Things that just work. As simple as possible, as a great man once said:</p>
+            <blockquote>
+                <p>'Make everything as simple as possible, but not simpler' - Albert Einstein</p>
+            </blockquote>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section>
+            <h2>WHAT WE'VE ACHIEVED</h2>
+            <p>We have developed high-end software solutions on iOS, Android, OSX and Linux. We have made electronics come to life in IoT (Internet Of Things) using Bluetooth LE/Smart. We have helped companies with Apple MFi implementation. We've made KaiOS apps. We have created indoor navigation systems. We've done many iOS apps. We can do many things.</p>
+            <h4><a href="clients.html">Learn more about what we've done for some of our clients ›</a></h4>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section">
+            <div class="service-icon">
+                <i class="ph ph-device-mobile" style="font-size: 1.5rem;"></i>
+            </div>
+            <div class="service-content">
+                <h2>MOBILE APPS:</h2>
+                <ul>
+                <li>We create native iOS apps using Swift/XCode or cross platform (iOS/Android) apps using Google's <a href="https://flutter.dev" target="_blank" rel="noopener">Flutter</a> development platform. We recently started exploring the brilliant <a href="https://www.kaiostech.com" target="_blank" rel="noopener">KaiOS system</a> for feature phones, making Internet accessible for the emerging markets. We recently launched the only dating service available for KaiOS, named <a href="https://www.datinga.com" target="_blank" rel="noopener">Datinga</a></li>
+                <li>We started creating iOS apps back in 2008 (as <a href="https://www.agiledimension.com" target="_blank" rel="noopener">Agile Dimension</a>). We had presence in the App store from day one and our first app was featured by Apple in one of their iPhone TV commercials <a href="https://www.youtube.com/watch?v=szrsfeyLzyg" target="_blank" rel="noopener">"There's an app for that"</a> (Compass Go). Our participation was approved by Steve Jobs, as all their ads were at that time. Due to the difficulty of keeping old apps profitable, we have closed down many of them and learned a lot over the years on how to create sustainable app ecosystems. Right now we only have these available in App store: Photosane, Fireplace, PowerAid, but more are coming.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="service-section">
+            <div class="service-icon">
+                <i class="ph ph-database" style="font-size: 1.5rem;"></i>
+            </div>
+            <div class="service-content">
+                <h2>WEB / BACKEND / MICROSERVICES</h2>
+                <p>We do primarily build performant and fault tolerant distributed backend systems with <a href="https://elixir-lang.org" target="_blank" rel="noopener">Elixir (Erlang)</a> using the <a href="https://www.phoenixframework.org" target="_blank" rel="noopener">Phoenix framework</a>.</p>
+                <p>In 2006 we started building backends using Ruby on Rails. In 2016 we started our move to Elixir and we are still using it successfully.</p>
+                <h4><a href="contact.html">If you want to know more, please get in touch with us: Contact ›</a></h4>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#top">^ Top</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="copyright.html">Copyright</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Red Mechanic AB</p>
+    </footer>
+</body>
+</html>

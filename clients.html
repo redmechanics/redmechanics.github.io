@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients - Red Mechanic AB</title>
+    <meta name="description" content="Some of the companies and organizations we've worked with.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        :root {
+            --pico-primary: #dc2626;
+            --pico-primary-hover: #b91c1c;
+            --pico-primary-focus: rgba(220, 38, 38, 0.125);
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            padding: 0;
+            background-image: url('assets/layered-steps-haikei.svg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 1rem 0;
+        }
+
+        header nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        header nav ul {
+            justify-content: space-between;
+        }
+
+        header nav ul li:first-child {
+            flex-grow: 1;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--pico-primary);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 0.5rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .hero {
+            border-radius: 1rem;
+            margin: 2rem 0;
+        }
+
+        .hero h1 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .hero h3 {
+            color: white;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+            vertical-align: middle;
+        }
+
+        .client-card {
+            background-color: var(--pico-card-background-color);
+            border: 1px solid var(--pico-muted-border-color);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .client-card h3 {
+            color: var(--pico-primary);
+            margin-top: 0;
+        }
+
+        .client-card h4 {
+            color: var(--pico-muted-color);
+            font-weight: 400;
+            margin-top: 0.5rem;
+        }
+
+        .section-divider {
+            border-top: 1px solid var(--pico-muted-border-color);
+            margin: 3rem 0;
+        }
+
+        footer {
+            background-color: transparent;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        footer nav ul {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        footer nav ul li:first-child {
+            flex-grow: 0;
+        }
+
+        footer nav ul li {
+            flex-grow: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .client-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" class="logo"><img src="assets/logo.png" alt="Red Mechanic AB"></a></li>
+                <li><a href="what-we-do.html">What we do</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Clients</h1>
+            <h3>Some things we've done:</h3>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>TELIA | <a href="https://teliacompany.com" target="_blank" rel="noopener">teliacompany.com ›</a></h3>
+            <h4>Sweden's largest telecommunications company, operating in 9 countries</h4>
+            <p>We created the backend feeding their <a href="https://www.youtube.com/watch?v=7JVD7bFLzNA" target="_blank" rel="noopener">#Anywhereization</a> campaign, displayed on venue TV monitors.</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>SICS (Now Rise) | <a href="https://www.ri.se/en" target="_blank" rel="noopener">ri.se ›</a></h3>
+            <h4>SICS, Swedish Institute of Computer Science. Sweden's leading research institute for applied information and communication technology</h4>
+            <p>We did a prototype app for their researchers so they could demonstrate to their customer, the benefits of using indoor position based service apps for powerplant technicians.</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>ALL THE WAY JOSÉ | <a href="https://allthewayjose.com" target="_blank" rel="noopener">allthewayjose.com ›</a></h3>
+            <h4>Swedish ad agency specialized in digital presence and marketing</h4>
+            <p>We did technical research and helped them set up online presence for many of their clients. Campaigns included Tabasco, Kikkoman, Hipp, Channel 12 Sweden, Psykiatrifonden and more</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>DYNAMO CONSULTING (Now Shortcut Sweden) | <a href="https://shortcut.io" target="_blank" rel="noopener">shortcut.io ›</a></h3>
+            <h4>One of Sweden's leading mobile development consulting companies</h4>
+            <p>We took part in designing the secure infrastructure for a medical app for one of their clients, <a href="https://ebpsolutions.se" target="_blank" rel="noopener">EBP Solutions</a>. The system had to meet the highest medical standards like HIPAA, GDPR and all the privacy issues that comes with a psychoanalytics tool for medical professionals. We also took part in the iOS Swift development. We worked closely with <a href="https://www.securemailbox.com" target="_blank" rel="noopener">Securemailbox</a> that was providing the backbone for the secure user management and data storage.</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>AUTOINFLAMMATORY ALLIANCE | <a href="https://www.autoinflammatory-search.org" target="_blank" rel="noopener">autoinflammatory-search.org ›</a></h3>
+            <h4>Non-profit U.S. organisation for helping and spreading knowledge about autoinflammatory diseases</h4>
+            <p>We developed their <a href="https://www.autoinflammatory-search.org/search" target="_blank" rel="noopener">searchable symptom database</a> targeted at individuals or medical professionals to help in diagnosing autoinflammatory diseases.</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>IPTOR SUPPLY CHAIN SYSTEMS | <a href="https://iptor.com" target="_blank" rel="noopener">iptor.com ›</a></h3>
+            <h4>International company with presence in 17 countries</h4>
+            <p>We helped setting up their multi-country/multi-language website</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <article class="client-card">
+            <h3>RED FLASH | <a href="https://redflash.se" target="_blank" rel="noopener">redflash.se ›</a></h3>
+            <h4>Swedish tech company active on the African continent. Focused on driving the digitization of the informal sector in emerging markets</h4>
+            <p>We set up a digital presence and designed backend for a parking management system. Targeted for Africa using USSD menu cellphones.</p>
+        </article>
+
+        <div class="section-divider"></div>
+
+        <section style="text-align: center; padding: 2rem 0;">
+            <h4><a href="contact.html">Do you want to know more? Please feel free to Contact us ›</a></h4>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#top">^ Top</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="copyright.html">Copyright</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Red Mechanic AB</p>
+    </footer>
+</body>
+</html>
